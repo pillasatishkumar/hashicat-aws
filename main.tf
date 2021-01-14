@@ -127,10 +127,11 @@ resource "aws_instance" "hashicat" {
     Name = "${var.prefix}-hashicat-instance"
 <<<<<<< HEAD
     Departmment = "devops"
+    Billable = "true"
 =======
     Department = "devops"
 >>>>>>> 005a97b41fdf1a27faaf76a0e3fe8f56ee6bd633
-  }
+    }
 }
 
 # We're using a little trick here so we can run the provisioner without
